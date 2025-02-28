@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let jadwal = "";
 
     let imamList = [
-        "Sudiarti", "Satudi S.Pdi", "Muhammad Nurul Azman", "Senan S.Pdi", "Wahadi S.Pd", "Sofian Hadi"
+        "Sudiarti", "Satudi S.Pdi", "Muhammad Nurul Azman", "Senan S.Pdi", "Wahadi S.Pd", "Opsional"
     ];
     let sholawatList = [
         "Sahuidin", "Sopian Hadi", "Mizanul Khairi", "Ujiadi", "Kertidep", "Supendra",
