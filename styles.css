@@ -1,0 +1,118 @@
+/* Header Animasi */
+.animated-header {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.animated-logo {
+    animation: bounceIn 1.5s ease-in-out;
+}
+
+/* Navigasi */
+.navbar {
+    background: linear-gradient(135deg, #343a40, #212529);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f8f9fa !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Card Styling */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Animasi */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background: #212529; /* Warna dark Bootstrap */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #f8f9fa; /* Warna link lebih soft */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ffc107; /* Warna hover kuning keemasan */
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    margin: 10px auto;
+}
+
+footer p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+footer strong {
+    font-weight: bold;
+    color: #17a2b8; /* Warna biru cerah Bootstrap */
+}
