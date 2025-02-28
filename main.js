@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let container = document.getElementById("jadwal-container");
     let searchInput = document.getElementById("searchInput");
     let jadwal = "";
@@ -37,5 +37,37 @@ document.addEventListener("DOMContentLoaded", function() {
                 card.style.display = "none";
             }
         });
+    });
+
+    // AUTOPLAY AUDIO dengan tombol kontrol
+    let audio = new Audio("audio.mp3");
+    audio.loop = true;
+    let audioButton = document.getElementById("audioControl");
+
+    function playAudio() {
+        audio.play().catch(error => {
+            console.log("Autoplay diblokir, menunggu interaksi pengguna.");
+        });
+    }
+
+    // Coba putar otomatis saat halaman dimuat
+    playAudio();
+
+    // Jika autoplay gagal, pengguna bisa klik tombol
+    audioButton.addEventListener("click", function () {
+        if (audio.paused) {
+            audio.play();
+            audioButton.innerHTML = "⏸ Pause";
+        } else {
+            audio.pause();
+            audioButton.innerHTML = "🔊 Play";
+        }
+    });
+
+    // Pastikan audio tetap berjalan saat tab aktif kembali
+    document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "visible" && !audio.paused) {
+            audio.play();
+        }
     });
 });
