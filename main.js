@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let container = document.getElementById("jadwal-container");
     let searchInput = document.getElementById("searchInput");
     let jadwal = "";
-    let imamList = ["Sudiarti", "Satudi S.Pdi", "Muhammad Nurul Azman", "Senan S.Pdi", "Wahadi S.Pd", "Sofian Hadi"];
+    let imamList = ["Sudiarti", "Satudi S.Pdi", "Muhammad Nurul Azman", "Senan S.Pdi", "Wahadi S.Pd", "tim safar/yang bersedia"];
     let sholawatList = ["Sahuidin", "Sopian Hadi", "Mizanul Khairi", "Ujiadi", "Kertidep", "Supendra"];
     let jajanList = ["Nila Puspawati, Rayuni, Susi", "Seri Safaatun, Suwarni, Mery", "Sarkip, Kartini, Sugianep"];
 
