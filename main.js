@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let sholawatList = ["Sahuidin", "Sopian Hadi", "Mizanul Khairi", "Ujiadi", "Kertidep", "Supendra"];
     
     let jajanList = [
-        ["Nila Puspawati", "Rayuni", "Susi"], ["Seri Safaatun", "Suwarni", "Mery"], ["Sarkip", "Kartini", "Sugianep"], 
+        [],["Nila Puspawati", "Rayuni", "Susi"], ["Seri Safaatun", "Suwarni", "Mery"], ["Sarkip", "Kartini", "Sugianep"], 
         ["Suhaini", "Siti Aminiah", "Ema Meliani"], ["Rismah", "Merhamah", "Yurni"], ["Maynep", "Martini", "Diya"], 
         ["Asmuni", "Tina", "Farida"], ["Foziah", "Umul Uadyani", "Nurmatp"], ["Lisda", "Irtip", "Ayu"], 
         ["Riani", "Seri Natip", "Widia"], ["Sirniwati", "Siti Umroh", "Satip"], ["Nurmini", "Sumanim", "Desi"],
