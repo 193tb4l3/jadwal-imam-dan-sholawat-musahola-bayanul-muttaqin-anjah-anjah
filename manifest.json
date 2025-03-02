@@ -1,7 +1,7 @@
 {
   "name": "Musholla Bayanul Muttaqin",
   "short_name": "Bayanul Muttaqin",
-  "start_url": "/index.html",
+  "start_url": "../Musholla Bayanul Muttaqin/index.html",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
